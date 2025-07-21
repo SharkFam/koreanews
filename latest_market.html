@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>2025-07-21 마켓 뉴스 요약</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: 'Noto Sans KR', sans-serif; margin: 2rem; background: #f9f9f9; color: #222; }
+    h1 { color: #0055a5; }
+    .summary { background: #e3f0ff; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.5rem; }
+    .date { color: #888; font-size: 0.95em; margin-bottom: 1rem; }
+    .tabs { margin-bottom: 2rem; }
+    .tab { display: inline-block; margin-right: 1rem; padding: 0.5rem 1rem; background: #eee; border-radius: 5px; text-decoration: none; color: #0055a5; }
+    .tab.active { background: #0055a5; color: #fff; }
+    .menu-btn { display: none; position: fixed; top: 1.2rem; right: 2rem; z-index: 100; width: 36px; height: 36px; background: #0055a5; border: none; border-radius: 5px; color: #fff; font-size: 2rem; align-items: center; justify-content: center; }
+    .menu-panel { display: none; position: fixed; top: 0; right: 0; width: 220px; height: 100%; background: #fff; box-shadow: -2px 0 8px rgba(0,0,0,0.1); z-index: 200; padding: 2rem 1rem; }
+    .menu-item { display: block; margin-bottom: 1.2rem; font-size: 1.1em; color: #0055a5; text-decoration: none; }
+    .menu-item.active { font-weight: bold; color: #222; }
+    @media (max-width: 800px) {
+      .tabs { display: none; }
+      .menu-btn { display: flex; }
+    }
+    @media (min-width: 801px) {
+      .menu-btn, .menu-panel { display: none !important; }
+      .tabs { display: block; }
+    }
+  </style>
+</head>
+<body>
+  <button class="menu-btn" id="menuBtn" aria-label="주제 메뉴 열기">☰</button>
+  <div class="menu-panel" id="menuPanel">
+    <div style="text-align:right; margin-bottom:2rem;"><button onclick="closeMenu()" style="font-size:1.5em; background:none; border:none; color:#0055a5;">×</button></div>
+    <a class="menu-item" href="latest_latest.html">최신기사</a><a class="menu-item" href="latest_politics.html">정치</a><a class="menu-item" href="latest_northkorea.html">북한</a><a class="menu-item" href="latest_economy.html">경제</a><a class="menu-item active" href="latest_market.html">마켓</a><a class="menu-item" href="latest_industry.html">산업</a><a class="menu-item" href="latest_society.html">사회</a><a class="menu-item" href="latest_local.html">전국</a><a class="menu-item" href="latest_international.html">세계</a><a class="menu-item" href="latest_culture.html">문화</a><a class="menu-item" href="latest_health.html">건강</a><a class="menu-item" href="latest_entertainment.html">연예</a><a class="menu-item" href="latest_sports.html">스포츠</a><a class="menu-item" href="latest_people.html">사람들</a><a class="menu-item" href="latest_opinion.html">오피니언</a>
+  </div>
+  <div class="tabs">
+    <a class="tab" href="latest_latest.html">최신기사</a> <a class="tab" href="latest_politics.html">정치</a> <a class="tab" href="latest_northkorea.html">북한</a> <a class="tab" href="latest_economy.html">경제</a> <a class="tab active" href="latest_market.html">마켓</a> <a class="tab" href="latest_industry.html">산업</a> <a class="tab" href="latest_society.html">사회</a> <a class="tab" href="latest_local.html">전국</a> <a class="tab" href="latest_international.html">세계</a> <a class="tab" href="latest_culture.html">문화</a> <a class="tab" href="latest_health.html">건강</a> <a class="tab" href="latest_entertainment.html">연예</a> <a class="tab" href="latest_sports.html">스포츠</a> <a class="tab" href="latest_people.html">사람들</a> <a class="tab" href="latest_opinion.html">오피니언</a>
+  </div>
+  <h1>마켓 뉴스 요약</h1>
+  <div class="date">날짜: 2025-07-21 - 뉴스는 매일 오전 9시,오후 12시,오후 5시,오후 9시에 갱신됩니다</div>
+  <div class="summary"><p>오늘 국내 채권 금리는 미국 연준 인사의 금리 인하 발언에 힘입어 일제히 하락하며 시장에 우호적인 분위기를 조성했습니다. 기업 소식으로는 폴라리스 그룹 계열사(폴라리스AI, 폴라리스세원)가 핸디소프트의 유상증자에 참여하고 지분율을 확대하며 경영권 영향력을 강화하는 움직임이 두드러졌습니다. 한편, 바이오 기업 프로티나의 공모주 청약에 막대한 증거금이 몰려 높은 경쟁률을 기록했으며, 제이에스링크 등 일부 기업들은 제3자배정 유상증자를 통해 자금을 조달했습니다. 대외적으로는 독일 다임러트럭이 중국 생산 철수 가능성을 배제하지 않는다는 소식과 중국 당국이 전기차 및 음식배달 산업 내 과도한 경쟁에 제동을 걸기 시작했다는 점이 주목받았습니다.</p></div>
+  <h2>주요 뉴스 제목</h2>
+  <ul>
+    <li><a href="https://www.yna.co.kr/view/AKR20250721138300008" target="_blank" rel="noopener">폴라리스AI "핸디소프트 주식 60억원에 추가취득…지분율 29.3%"</a></li>
+<li><a href="https://www.yna.co.kr/view/AKR20250721116200009" target="_blank" rel="noopener">독일 다임러트럭, '중국 생산 철수' 배제 안 해</a></li>
+<li><a href="https://www.yna.co.kr/view/AKR20250721133600008" target="_blank" rel="noopener">폴라리스세원 "핸디소프트 주식 240억원에 취득…지분율 19.5%"</a></li>
+<li><a href="https://www.yna.co.kr/view/AKR20250721133500008" target="_blank" rel="noopener">핸디소프트, 100억원 유증…폴라리스에이아이 등에 3자 배정</a></li>
+<li><a href="https://www.yna.co.kr/view/AKR20250721131600008" target="_blank" rel="noopener">프로티나, 청약 경쟁률 1천798대 1…증거금 4.7조원</a></li>
+<li><a href="https://www.yna.co.kr/view/AKR20250721126251008" target="_blank" rel="noopener">국고채 금리, 美 연준이사 금리인하 발언에 하락…3년물 2.456%(종합)</a></li>
+<li><a href="https://www.yna.co.kr/view/AKR20250721128500008" target="_blank" rel="noopener">제이에스링크, 200억원 유상증자…박진수에 제3자배정</a></li>
+<li><a href="https://www.yna.co.kr/view/AKR20250721125200008" target="_blank" rel="noopener">트러스톤, OK캐피탈에 태광산업 지분 일부 블록딜</a></li>
+<li><a href="https://www.yna.co.kr/view/AKR20250721124500009" target="_blank" rel="noopener">전기차에 음식배달까지…中당국, '제살 깎기' 경쟁에 제동나서</a></li>
+<li><a href="https://www.yna.co.kr/view/AKR20250721126200008" target="_blank" rel="noopener">국고채 금리 일제히 하락…3년물 연 2.456%</a></li>
+  </ul>
+  <footer style="margin-top:2rem;font-size:0.9em;color:#aaa;">Powered by Google Gemini & 연합뉴스</footer>
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const menuPanel = document.getElementById('menuPanel');
+    menuBtn.onclick = function() {
+      menuPanel.style.display = 'block';
+      document.body.style.overflow = 'hidden';
+    };
+    function closeMenu() {
+      menuPanel.style.display = 'none';
+      document.body.style.overflow = '';
+    }
+    window.closeMenu = closeMenu;
+    // 바깥 클릭 시 닫기
+    menuPanel.addEventListener('click', function(e) {
+      if (e.target === menuPanel) closeMenu();
+    });
+  </script>
+</body>
+</html>
