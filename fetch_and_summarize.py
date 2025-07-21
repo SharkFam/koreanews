@@ -103,7 +103,7 @@ def save_html(titles_and_links, summary, date_str, topic, topic_kr):
     {tab_html}
   </div>
   <h1>{topic_kr} 뉴스 요약</h1>
-  <div class=\"date\">날짜: {date_str} - 뉴스는 매일 오전 9시에 갱신됩니다</div>
+  <div class=\"date\">날짜: {date_str} - 뉴스는 매일 오전 9시,오후 12시,오후 5시,오후 9시에 갱신됩니다</div>
   <div class=\"summary\">{summary_html}</div>
   <h2>주요 뉴스 제목</h2>
   <ul>
